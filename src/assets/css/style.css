@@ -1,0 +1,90 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.product-h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-top: 30px;
+}
+
+.p-media__thumb {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.p-media__thumb img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.p-media__thumb::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.header-space {
+  margin-bottom: 80px;
+}
+
+.text-history-products {
+  font-size: 14px;
+}
+
+.text-history {
+  font-size: 13px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.history-product-price {
+  margin-top: 20px;
+}
+
+.history-product-price span {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), color-stop(70%, #6d77b1), to(#6d77b1));
+  background: linear-gradient(to bottom, transparent, transparent 70%, #6d77b1 70%, #6d77b1 100%);
+}
+
+.vertical-middle {
+  vertical-align: bottom;
+}
+
+.button-3 {
+  display: 'inline-block';
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
