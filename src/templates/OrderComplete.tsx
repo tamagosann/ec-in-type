@@ -1,9 +1,9 @@
-import React, { useCallback } from 'react';
+import React, { FC, useCallback } from 'react';
 import { Container, Paper } from '@material-ui/core';
 import { PrimaryButton } from '../components/UIKit';
 import { useHistory } from 'react-router';
 
-const OrderComplete = () => {
+const OrderComplete: FC = () => {
     const history = useHistory();
     const link = useCallback((path) => {
         history.push(path)
